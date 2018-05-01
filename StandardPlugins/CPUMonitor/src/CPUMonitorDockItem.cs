@@ -122,11 +122,9 @@ namespace CPUMonitor
 					string data = reader.ReadToEnd ();
 					MatchCollection collection = regex.Matches (data);
 					int memTotal = Convert.ToInt32 (collection [0].Value);
-					int memFree  = Convert.ToInt32 (collection [1].Value);
-					int buffers  = Convert.ToInt32 (collection [2].Value);
-					int cached   = Convert.ToInt32 (collection [3].Value);
+					int avail  = Convert.ToInt32 (collection [2].Value);
 					
-					MemoryUtilization = 1 - ((memFree + buffers + cached) / (double) memTotal);
+					MemoryUtilization = 1 - (avail / (double) memTotal);
 				} catch { 
 					// we dont care
 				}
