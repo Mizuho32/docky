@@ -1,0 +1,13 @@
+   sudo apt install gtk-sharp2
+   sudo apt install libdbus-glib2.0-cil-dev
+   sudo apt install libdbus2.0-cil-dev
+   sudo apt install libgio2.0-cil-dev
+   sudo apt install libgkeyfile-cil-dev
+   sudo apt install libgnome-keyring1.0-cil-dev
+   sudo apt install libgtk-sharp-beans2.0-cil-dev
+   sudo apt install libmono-addins-cil-dev
+   sudo apt install libmono-addins-gui-cil-dev
+   sudo apt install libnotify-cil-dev
+   sudo apt install libnotify3.0-cil-dev
+   sudo apt install libwnck-dev
+   sudo apt install mono-devel
