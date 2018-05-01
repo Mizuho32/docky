@@ -17,6 +17,8 @@ po/.intltool-merge-cache
 po/Makefile.in
 po/POTFILES
 po/stamp-it
+Docky.Services/AssemblyInfo.cs
+Docky/AssemblyInfo.cs
 
 .*.swp
 .*.swo
